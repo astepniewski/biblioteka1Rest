@@ -1,0 +1,22 @@
+Celem cwiczenia jest opracowanie 3-4 bibliotek, ktore tworza jeden framework.
+Kazda osoba z grupy przygotowuje jedna biblioteke, biblioteki sa
+synchronizowane pomiedzy osobami w grupie za pomoca git'a. Zadaniem pierwszej
+biblioteki jest udostepnienie api pozwalajace na:
+1) Sciaganiae plikow z wykorzystaniem protokolu HTTP
+2) Kompresja i dekompresja plikow ZIP
+Druga biblioteka powinna pozwalac na:
+1) Szyfrowanie i deszyfrowanie plikow z pomoca algorytmu AES. API ma pozwalac
+na "ustawienie/wybranie" klucza!!!!
+2) Obliczanie sum kontrolnych plikow z wykorzystaniem algorytmow MD5 i SHA
+Trzecia biblioteka powinna umozliwiac:
+1) Wykrywanie formatu pliku (czy plik jest plikiem graficznym (JPG, PNG, GIF,
+TGA), plikiem dzwiekowym (WAV, MP3, AAC), czy plikiem ZIP lub plikiem
+zaszyfrowanym algorytmem AES za pomoca biblioteki 2
+2) Jesli plik jest plikiem graficznym powinna byc mozliwosc jego wyswietlenia,
+jesli muzycznym odsluchania
+Czwarta biblioteka bedzie umozliwiac obsluge protokolu FTP
+
+Po zakonczeniu pisania biblioteki nalezy dopisac testy jednostkowe
+sprawdzajace wszystkie przypadki uzycia biblioteki
+
+
